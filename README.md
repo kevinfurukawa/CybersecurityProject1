@@ -4,15 +4,15 @@ Elk Stack Project
 
 The files in this repository were used to configure the network depicted below.
 
-![cloud](Images/RedTeamCloud.png)
+![cloud diagram image](Diagrams/RedTeamCloud.png)
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the playbook file may be used to install only certain pieces of it, such as Filebeat.
 
-  - [install-elk.yml](install-elk.yml)
-  - [filebeat-config.yml](filebeat-config.yml)
-  - [metricbeat-config.yml](metricbeat-config.yml)
-  - [filebeat-playbook.yml](filebeat-playbook.yml)
-  - [metricbeat-playbook.yml](metricbeat-playbook.yml)
+  - [install-elk.yml](Ansible/install-elk.yml)
+  - [filebeat-config.yml](Ansible/filebeat-config.yml)
+  - [metricbeat-config.yml](Ansible/metricbeat-config.yml)
+  - [filebeat-playbook.yml](Ansible/filebeat-playbook.yml)
+  - [metricbeat-playbook.yml](Ansible/metricbeat-playbook.yml)
 
 This document contains the following details:
 - Description of the Topology
